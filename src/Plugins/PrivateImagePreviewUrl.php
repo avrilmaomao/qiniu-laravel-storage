@@ -6,7 +6,7 @@
  * Time: 13:09
  */
 
-namespace zgldh\QiniuStorage\Plugins;
+namespace pmcaff\QiniuStorage\Plugins;
 
 use League\Flysystem\Plugin\AbstractPlugin;
 

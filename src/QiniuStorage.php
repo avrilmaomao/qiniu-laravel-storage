@@ -1,4 +1,4 @@
-<?php namespace zgldh\QiniuStorage;
+<?php namespace pmcaff\QiniuStorage;
 
 
 class QiniuStorage

@@ -1,23 +1,23 @@
-<?php namespace zgldh\QiniuStorage;
+<?php namespace pmcaff\QiniuStorage;
 
 use Illuminate\Support\Facades\Storage;
 use League\Flysystem\Filesystem;
 use Illuminate\Support\ServiceProvider;
-use zgldh\QiniuStorage\Plugins\DownloadUrl;
-use zgldh\QiniuStorage\Plugins\Fetch;
-use zgldh\QiniuStorage\Plugins\ImageExif;
-use zgldh\QiniuStorage\Plugins\ImageInfo;
-use zgldh\QiniuStorage\Plugins\AvInfo;
-use zgldh\QiniuStorage\Plugins\ImagePreviewUrl;
-use zgldh\QiniuStorage\Plugins\LastReturn;
-use zgldh\QiniuStorage\Plugins\PersistentFop;
-use zgldh\QiniuStorage\Plugins\PersistentStatus;
-use zgldh\QiniuStorage\Plugins\PrivateDownloadUrl;
-use zgldh\QiniuStorage\Plugins\Qetag;
-use zgldh\QiniuStorage\Plugins\UploadToken;
-use zgldh\QiniuStorage\Plugins\PrivateImagePreviewUrl;
-use zgldh\QiniuStorage\Plugins\VerifyCallback;
-use zgldh\QiniuStorage\Plugins\WithUploadToken;
+use pmcaff\QiniuStorage\Plugins\DownloadUrl;
+use pmcaff\QiniuStorage\Plugins\Fetch;
+use pmcaff\QiniuStorage\Plugins\ImageExif;
+use pmcaff\QiniuStorage\Plugins\ImageInfo;
+use pmcaff\QiniuStorage\Plugins\AvInfo;
+use pmcaff\QiniuStorage\Plugins\ImagePreviewUrl;
+use pmcaff\QiniuStorage\Plugins\LastReturn;
+use pmcaff\QiniuStorage\Plugins\PersistentFop;
+use pmcaff\QiniuStorage\Plugins\PersistentStatus;
+use pmcaff\QiniuStorage\Plugins\PrivateDownloadUrl;
+use pmcaff\QiniuStorage\Plugins\Qetag;
+use pmcaff\QiniuStorage\Plugins\UploadToken;
+use pmcaff\QiniuStorage\Plugins\PrivateImagePreviewUrl;
+use pmcaff\QiniuStorage\Plugins\VerifyCallback;
+use pmcaff\QiniuStorage\Plugins\WithUploadToken;
 
 class QiniuFilesystemServiceProvider extends ServiceProvider
 {
